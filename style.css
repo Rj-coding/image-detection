@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#image-url {
+    padding: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-right: 10px;
+}
+
+#check-button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #349ea8;
+    cursor: pointer;
+}
+
+#image-container {
+    border: 1px solid #e01818;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#image-status {
+    margin-top: 10px;
+    font-weight: bold;
+}
